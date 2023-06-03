@@ -1,6 +1,5 @@
 # 01 ビルドができない
 
-cat <<"EOF" | sudo -u user tee /home/user/app/README 1>/dev/null 2>&1
 以下のコマンドでクロスコンパイルをしようとしたところ失敗してしまいました。なぜでしょうか。
 また、ビルドするためにはどうすればよいか答えてください。
 
@@ -48,7 +47,5 @@ https://www.sakura.ad.jp/services/cloudshell/
 環境構築のスクリプトを実行する
 
 ![](./cloud-shell-setup.png)
-
-
 
 
