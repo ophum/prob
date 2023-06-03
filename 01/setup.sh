@@ -48,10 +48,15 @@ EOF
 
 cat <<EOF
 
+問題ユーザー: user
 問題ディレクトリ: /home/user/app
 問題内容: /home/user/app/README
 
+以下のコマンドでログインしてください。
+
+sudo su - user
+cd ./app
+cat README
+
 EOF
 
-echo "login user"
-sudo su - user
