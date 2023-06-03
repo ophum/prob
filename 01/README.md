@@ -47,6 +47,7 @@ https://www.sakura.ad.jp/services/cloudshell/
 
 環境構築のスクリプトを実行する
 
+![](./cloud-shell-setup.png)
 
 
 
