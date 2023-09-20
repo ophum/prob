@@ -123,6 +123,8 @@ sakura@cloud-shell% ocaml
 
 表の条件で喫茶店を開業したい。月10万円の利益を出すためには，1客席当たり1日何人の客が必要か。
 
+|                     |       |
+| ------------------- | ----- |
 | 客1人当たりの売上高 | 500円 |
 | 客1人当たりの変動費 | 100円 |
 | 固定費              | 300,000 円/月 |
@@ -225,6 +227,17 @@ sakura@cloud-shell% ocaml
     if n <= 0 then 1
     else n * (factorial (n - 1)) ;;
 val factorial : int -> int = <fun>
+
+# factorial 5 ;;
+- : int = 120
+# factorial 4 ;;
+- : int = 24
+# factorial 3 ;;
+- : int = 6
+# factorial 2 ;;
+- : int = 2
+# factorial 1 ;;
+- : int = 1
 ```
 
 
